@@ -1,0 +1,279 @@
+body {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+}
+
+h1 {
+    margin: 10px 0 0 0;
+    font-size: 36px;
+    color: #333333;
+    padding: 5px 10px;
+}
+
+h2 {
+    margin: 0 0 0 0;
+    font-size: 30px;
+    color: #333333;
+    padding: 5px 10px;
+}
+
+h3 {
+    margin: 0 0 2px 0;
+    font-size: 24px;
+    color: #333333;
+    padding: 5px 10px;
+}
+
+/* h要素 飾り */
+.deco1 {
+    background-color: #ffe;
+    border-left: 18px solid #f00;
+}
+
+.deco2 {
+    background-color: #eee;
+    /* border-left: 15px solid #f00; */
+    border-bottom: 1px solid #ecc;
+}
+
+.deco3 {
+    /* background-color: #eee; */
+    /* border-left: 15px solid #f00; */
+    border-bottom: 1px solid #f00;
+}
+
+
+/* http://naifix.com/css-box-design/ */
+.title-box {
+    border: 2px solid #da4033;
+    border-radius: 4px;
+    margin: 2em 0;
+    padding: 2em;
+    position: relative;
+}
+.title-box::before {
+    background-color: #fff;
+    color: #da4033;
+    content: attr(title);
+    font-weight: bold;
+    left: 1em;
+    padding: 0 .5em;
+    position: absolute;
+    top: -1em;
+}
+
+p {
+    font-size: 80%;
+    margin: 0px 0px 30px 30px;
+}
+
+a {
+    color: #333333;
+}
+
+li {
+    margin:0 0 0 0;
+}
+
+/* li 飾り */
+.stripe {
+  background: -webkit-repeating-linear-gradient(45deg, #3498db, #3498db 5px, #69b4e6 5px, #69b4e6 10px);
+  background: repeating-linear-gradient(45deg, #3498db, #3498db 5px, #69b4e6 5px, #69b4e6 10px);
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.category1 {
+    background-color: #fdd;
+}
+
+.category2 {
+    background-color: #fca;
+}
+
+.category3 {
+    background-color: #ff9;
+}
+
+.round-left {
+    border-radius: 10px 0 0 10px;
+}
+
+/* double box */
+.dbox {
+    border: 8px double #ddd;
+    padding: 10px 10px;
+    border-radius: 4px;
+    margin: 10px 0px;
+ }
+
+/* rounded box */
+.rbox {
+    width: 500px;
+    max-height: 500px;
+    margin: 10px;
+    border: 1px solid #fff;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 7px #292929;
+    -moz-box-shadow: 0px 2px 7px #292929;
+    -webkit-box-shadow: 0px 2px 7px #292929;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.mainbody,
+.header,
+.footer {
+    padding: 5px;
+}
+.mainbody {
+    margin-top: 0;
+    min-height: 150px;
+    max-height: 388px;
+    overflow: auto;
+}
+.header {
+    height: 40px;
+    border-bottom: 1px solid #EEE;
+    background-color: #ffffff;
+    height: 40px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.footer {
+    height: 40px;
+    background-color: whiteSmoke;
+    border-top: 1px solid #DDD;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*
+- rounded box sample -
+<div id="rbox">
+    <div class="header">Header</div>
+    <div class="mainbody">
+        <p>Body</p>
+    </div>
+    <div class="footer">Footer</div>
+</div>
+
+*/
+
+
+/* carousel */
+.carousel {
+}
+
+
+/* noto fontweight */
+.noto100 {font-weight:100;}
+.noto200 {font-weight:200;}
+.noto300 {font-weight:300;}
+.noto400 {font-weight:400;}
+.noto500 {font-weight:500;}
+.noto600 {font-weight:600;}
+.noto700 {font-weight:700;}
+.noto800 {font-weight:800;}
+.noto900 {font-weight:900;}
+
+/* jquery.matchHeight */
+.wrap{
+  padding: 3em 0;
+}
+
+.wrap:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.item{
+  float: left;
+  margin: 1%;
+  padding: 1%;
+  background: #aaa;
+}
+
+/* color */
+/* http://www.colourlovers.com */
+/* Maddening Cravan */
+.walls {
+    backgroud: #FAD089;
+}
+
+.Yamabuki {
+    backgroud: #FF9C5B;
+}
+.Manic Craving {
+    background: #F5634A;
+}
+
+.WhatIBelieve {
+    background: #ED303C;
+}
+.Managed Arm {
+    background: #3B8183;
+}
+
+/* Dance To Forget */
+.Pink Cocktail {
+    background: #FF4E50;
+}
+.Show Me Your Heart {
+    background: #FC913A;
+}
+.Above Yellow {
+    background: #F9D423;
+}
+.Give Your Heart {
+    background: #EDE574;
+}
+.spring green {
+    background: #E1F5C4;
+}
+
+/* LoversInJapan */
+.LoversInJapan {
+    background: #E94E77;
+}
+.LoversInJapan {
+    background: #D68189;
+}
+.LoversInJapan {
+    background: #C6A49A;
+}
+.LoversInJapan {
+    background: #C6E5D9;
+}
+.LoversInJapan {
+    background: #F4EAD5;
+}
+
+/* Heirloom China */
+.Nanas-Touch {
+    background: #EBAEB4;
+}
+.Nanas-Embrace {
+    background: #CB5868;
+}
+.gobi {
+    background: #B89248;
+}
+.Nanas-Smile {
+    background: #E1CA73;
+}
+.cream-on-top {
+    background: #EFE4C0;
+}

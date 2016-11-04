@@ -1,0 +1,14 @@
+<section>
+
+  <div class="page-header"> <h1 class="deco1">学習コース</h1> </div>
+
+  八旗中国語学院は、この他にも多彩なコースを用意しております。お申し込みの際にご相談ください。
+
+  {{ range .Site.Data.course }}
+  <h3 class="deco3"> {{ .title }} </h3>
+  <div class="course"> {{ .content }}  </div>
+  <div class="price"> {{ .price }} </div>
+  <div class="time"> {{ .time }} </div>
+  {{ end }}
+
+</section>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  {{ partial "header.html" . }}
+
+  <body>
+
+    <header>
+      {{ partial "navbar.html" .}}
+    </header>
+
+
+    <div class="container">
+
+      <!-- sidebar -->
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          {{ partial "sidebar.html" . }}
+        </div>
+      </div>
+
+      <!-- main -->
+      <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <div class="row">
+            <div class="col-sm-12">
+              {{ partial "carousel.html" . }}
+            </div>
+          </div>
+
+          {{ partial "about.html" . }}
+
+
+
+          {{ partial "trial.html" . }}
+
+          <!-- {{ partial "test.html" . }} -->
+
+          {{ partial "course.html" . }}
+
+
+        </div>
+      </div>
+
+      <footer>
+        <!--      {{ partial "footer.html" . }} -->
+      </footer>
+
+      <!-- container -->
+      {{ partial "scripts.html" . }}
+  </body>
+</html>

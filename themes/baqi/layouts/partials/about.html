@@ -1,0 +1,16 @@
+<section>
+  <div class="row">
+    <div class="col-sm-12">
+
+      <div class="page-header"> <h1 class="deco1">八旗中国語学院について</h1> </div>
+
+      {{ range .Site.Data.about }}
+      <div class="page-header"> <h2 class="deco2"> {{ .title }} </h2> </div>
+      <div class="dbox">
+        {{ .content }}
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>

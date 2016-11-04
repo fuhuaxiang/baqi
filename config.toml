@@ -1,0 +1,66 @@
+baseurl = "http://baqi.suika.org/"
+languageCode = "ja-JP"
+title = "八旗中国語学院"
+theme = "baqi"
+
+
+[[params.menu]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[params.menu]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[params.menu]]
+    name = "FAQ"
+    url  = "/faq/"
+    weight = 3
+
+[[params.menu]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
+
+[[params.sidebar1]]
+    name="八旗中国語学院とは"
+    url = "#"
+    weight = 1
+
+[[params.sidebar1]]
+    name="トライアル"
+    url = "#"
+    weight = 2
+
+[[params.sidebar1]]
+    name="選べるレッスン"
+    url = "#"
+    weight = 3
+
+
+[[params.sidebar2]]
+    name="料金システム"
+    url = "#"
+    weight = 1
+
+[[params.sidebar2]]
+    name="翻訳サービス"
+    url = "#"
+    weight = 2
+
+[[params.sidebar2]]
+    name="ご入学について"
+    url = "#"
+    weight = 3
+
+[[params.sidebar2]]
+    name="よくあるご質問"
+    url = "#"
+    weight = 4
+
+[[params.sidebar3]]
+    name="お問い合わせ"
+    url = "#"
+    weight = 1

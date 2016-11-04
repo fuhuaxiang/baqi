@@ -1,0 +1,28 @@
+<img class="img-sidebar img-responsive" src="{{.Site.BaseURL}}img/sidebar-logo.png">
+
+<!-- category 1 -->
+<nav>
+<ul class="nav nav-sidebar">
+  {{ range .Site.Params.sidebar1 }}
+  <li class="category1 round-left"><a href="{{ .url }}">{{ .name }}</a></li>
+  {{ end }}
+</ul>
+</nav>
+
+<!-- category 2 -->
+<nav>
+  <ul class="nav nav-sidebar">
+    {{ range .Site.Params.sidebar2 }}
+    <li class="category2 round-left"><a href="{{ .url }}">{{ .name }}</a></li>
+    {{ end }}
+</ul>
+</nav>
+
+<!-- category 3 -->
+<nav>
+  <ul class="nav nav-sidebar">
+    {{ range .Site.Params.sidebar3 }}
+    <li class="category3 round-left"><a href="{{ .url }}">{{ .name }}</a></li>
+    {{ end }}
+</ul>
+</nav>
