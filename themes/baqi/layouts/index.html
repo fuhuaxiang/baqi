@@ -22,32 +22,29 @@
       <!-- main -->
       <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          {{ partial "seo.html" . }}
 
-          <div class="row">
-            <div class="col-sm-12">
-              {{ partial "carousel.html" . }}
-            </div>
-          </div>
+          {{ partial "carousel.html" . }}
+
 
           {{ partial "about.html" . }}
 
 
-
           {{ partial "trial.html" . }}
 
-          <!-- {{ partial "test.html" . }} -->
 
           {{ partial "course.html" . }}
 
 
-        </div>
-      </div>
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
 
-      <footer>
-        <!--      {{ partial "footer.html" . }} -->
-      </footer>
+    <footer>
+      <!--      {{ partial "footer.html" . }} -->
+    </footer>
 
-      <!-- container -->
-      {{ partial "scripts.html" . }}
+
+    {{ partial "scripts.html" . }}
   </body>
 </html>

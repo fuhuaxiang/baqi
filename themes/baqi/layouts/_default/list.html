@@ -26,6 +26,7 @@
               {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
               {{ range $paginator.Pages }}
               <section class="post">
+                _default_list
                 <div class="row">
                   <div class="col-md-4">
                     <div class="image">

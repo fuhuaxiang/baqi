@@ -6,8 +6,24 @@
     <description>Recent content on 八旗中国語学院</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 06 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://baqi.suika.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>よくあるご質問</title>
+      <link>http://baqi.suika.org/faq/</link>
+      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://baqi.suika.org/faq/</guid>
+      <description>
+
+&lt;h1 id=&#34;ほげ:4a1318da06786ac52626178ca960109e&#34;&gt;ほげ&lt;/h1&gt;
+
+&lt;h1 id=&#34;ふが:4a1318da06786ac52626178ca960109e&#34;&gt;ふが&lt;/h1&gt;
+
+&lt;h1 id=&#34;ぴよ:4a1318da06786ac52626178ca960109e&#34;&gt;ぴよ&lt;/h1&gt;
+</description>
+    </item>
     
     <item>
       <title>Migrate from Jekyll</title>

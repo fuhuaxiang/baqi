@@ -33,18 +33,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   
-  <script src="http://baqi.suika.org/js/jquery.matchHeight.js"></script>
   <script>
-	$(function(){
-	  $('.js-matchHeight').matchHeight();
-	});
-  </script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-86911480-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 
   
   <link href="http://baqi.suika.org/css/style.css" rel="stylesheet" id="theme-stylesheet">
   <link href="http://baqi.suika.org/css/sidebar.css" rel="stylesheet" id="theme-stylesheet">
-
 
   
   <link href="http://baqi.suika.org/css/custom.css" rel="stylesheet">
@@ -76,7 +78,7 @@
 
     <div class="navbar-header">
       <a class="navbar-brand home" href="http://baqi.suika.org/">
-        <img src="http://baqi.suika.org/img/logo.png" alt="八旗中国語学院 logo" class="hidden-xs hidden-sm">
+        <img src="http://baqi.suika.org/img/logo.png" alt="八旗中国語学院 logo" class="navbar-img hidden-xs hidden-sm">
         <img src="http://baqi.suika.org/img/logo-small.png" alt="八旗中国語学院 logo" class="visible-xs visible-sm">
         <span class="sr-only">八旗中国語学院 - go to homepage</span>
       </a>
@@ -95,11 +97,11 @@
         </li>
         
         <li class="dropdown">
-          <a href="/faq/">FAQ</a>
+          <a href="/faq/">よくあるご質問</a>
         </li>
         
         <li class="dropdown">
-          <a href="/contact/">Contact</a>
+          <a href="/contact/">お問い合わせ</a>
         </li>
         
       </ul>
@@ -124,11 +126,11 @@
 <nav>
 <ul class="nav nav-sidebar">
   
-  <li class="category1 round-left"><a href="#">八旗中国語学院とは</a></li>
+  <li class="category1 round-left"><a href="#about">学院の特徴</a></li>
   
-  <li class="category1 round-left"><a href="#">トライアル</a></li>
+  <li class="category1 round-left"><a href="#trial">体験レッスン</a></li>
   
-  <li class="category1 round-left"><a href="#">選べるレッスン</a></li>
+  <li class="category1 round-left"><a href="#course">選べるレッスン</a></li>
   
 </ul>
 </nav>
@@ -137,13 +139,13 @@
 <nav>
   <ul class="nav nav-sidebar">
     
-    <li class="category2 round-left"><a href="#">料金システム</a></li>
+    <li class="category2 round-left"><a href="#system">料金システム</a></li>
     
-    <li class="category2 round-left"><a href="#">翻訳サービス</a></li>
+    <li class="category2 round-left"><a href="translate">翻訳サービス</a></li>
     
     <li class="category2 round-left"><a href="#">ご入学について</a></li>
     
-    <li class="category2 round-left"><a href="#">よくあるご質問</a></li>
+    <li class="category2 round-left"><a href="/faq/">よくあるご質問</a></li>
     
 </ul>
 </nav>
@@ -152,7 +154,7 @@
 <nav>
   <ul class="nav nav-sidebar">
     
-    <li class="category3 round-left"><a href="#">お問い合わせ</a></li>
+    <li class="category3 round-left"><a href="/contact/">お問い合わせ</a></li>
     
 </ul>
 </nav>
@@ -163,10 +165,12 @@
       
       <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <div id="SEO">
+  <h1>八旗中国語学院 [大船駅南口徒歩3分、初心者歓迎、無料体験レッスン受付中。中国語検定対策・講師派遣・翻訳もいたします]</h1>
+</div>
 
-          <div class="row">
-            <div class="col-sm-12">
-              <section>
+
+          <section>
   <div class="container">
     <div class="row">
 
@@ -178,39 +182,43 @@
     </div>
 </section>
 
-            </div>
-          </div>
+
 
           <section>
   <div class="row">
     <div class="col-sm-12">
 
-      <div class="page-header"> <h1 class="deco1">八旗中国語学院について</h1> </div>
+      <div class="page-header"> <h2 class="deco1">八旗中国語学院の特徴</h2> </div>
 
       
-      <div class="page-header"> <h2 class="deco2"> 八旗中国語学院 </h2> </div>
+      <h3 class="deco2"> 学院の特徴 </h3>
+      <div class="dbox">
+        <ul><li>「話す」「聞く」「読む」「書く」のバランスの取れた学習で、上達の早さを実感できます。</li><li>レッスンは目的に応じてカスタマイズ可能です。</li><li>朝9:00〜夜22:00まで選べるレッスン時間。土日も開校しています。</li><li>わかりやすくリーズナブルな授業料で、無理なく続けられます。</li><li>もし、欠席された時でも、振替レッスンの予約が可能です。</li></ul>
+      </div>
+      
+      <h3 class="deco2"> 八旗中国語学院 </h3>
       <div class="dbox">
         大船で15年、多くの方々に中国語のレッスンを行ってきました。受講生一人ひとりの目的に合わせ、最適な学習スタイルを提供しております。また、定期的に懇親会など、生徒同士の交流と情報交換の機械を設けております。
       </div>
       
-      <div class="page-header"> <h2 class="deco2"> 教室について </h2> </div>
+      <h3 class="deco2"> 経験豊富な中国人講師による親切指導 </h3>
       <div class="dbox">
-        教室は大船駅から徒歩3分、閑静な住宅街の一角にございます。明るく家庭的な雰囲気のなか、集中して中国語の学習に取り組むことができます。 
+        中国人講師が親切指導しますので、きれいな中国語を最初からしっかりマスターすることができます。全ての講師は日本語も話せますので、初心者でも安心して学べます。講師自身がバイリンガルなので、日本人が中国語を習得する時の弱点が良く分かり、効率よく指導できます。
       </div>
       
-      <div class="page-header"> <h2 class="deco2"> 文化交流できる楽しいイベント有（自由参加） </h2> </div>
-      <div class="dbox">
-        忘年会などのイベントを定期的に開催します。
-      </div>
-      
-      <div class="page-header"> <h2 class="deco2"> 話せて使える中国語を楽しくマスター  </h2> </div>
+      <h3 class="deco2"> 話せて使える中国語を楽しくマスター  </h3>
       <div class="dbox">
         授業の実用性と楽しさの両方を重視し、会話中心で生きた中国語を身に付けます。言葉のほか中国文化などの内容も充実しているので、幅広く学べます。
       </div>
       
-      <div class="page-header"> <h2 class="deco2"> 経験豊富な中国人講師による親切指導 </h2> </div>
+      <h3 class="deco2"> 教室について </h3>
       <div class="dbox">
-        中国人講師が親切指導しますので、きれいな中国語を最初からしっかりマスターすることができます。全ての講師は日本語も話せますので、初心者でも安心して学べます。講師自身がバイリンガルなので、日本人が中国語を習得する時の弱点が良く分かり、効率よく指導できます。
+        教室は大船駅から徒歩3分、閑静な住宅街の一角にございます。明るく家庭的な雰囲気のなか、集中して中国語の学習に取り組むことができます。 
+      </div>
+      
+      <h3 class="deco2"> 文化交流できる楽しいイベント有（自由参加） </h3>
+      <div class="dbox">
+        忘年会などのイベントを定期的に開催します。
       </div>
       
 
@@ -220,10 +228,9 @@
 
 
 
-
           <section>
 
-  <div class="page-header"> <h1 class="deco1">体験レッスン</h1> </div>
+  <div class="page-header"> <h2 class="deco1">体験レッスン</h2> </div>
 
   <div class="dbox">
     八旗中国語学院では、無料体験レッスンを行っております。実際に体験していただき、ホームページではお伝えしきれない教室の雰囲気をご自身でご確認ください。
@@ -232,20 +239,20 @@
     初めて中国語を勉強される方も大歓迎です。どうぞお気軽にお越しください。
   </div>
 
-  <div class="page-header"> <h2 class="deco2">体験レッスンの流れ</h2> </div>
+<h3 class="deco2">体験レッスンの流れ</h3>
 
   
-  <h3 class="deco3"> 1. お問い合わせ </h3>
+  <h4 class="deco3"> 1. お問い合わせ </h4>
   <div class="dbox">
     まず、電話かメールでお気軽にお問い合わせください。どんなことでも結構です。 無料体験レッスンは随時受け付けしております。
   </div>
   
-  <h3 class="deco3"> 2. 体験レッスン </h3>
+  <h4 class="deco3"> 2. 体験レッスン </h4>
   <div class="dbox">
     見学だけでなく、実際の授業に参加していただき、講師がレベルチェックを行います。初めての方は教室の雰囲気や授業の進み方などをご覧いただき、中国語特有の流れるようなリズムを体験してください。
   </div>
   
-  <h3 class="deco3"> 3. ご入学手続き </h3>
+  <h4 class="deco3"> 3. ご入学手続き </h4>
   <div class="dbox">
     登録用紙に記入をしていただき、教室の仕組みについてのご案内をいたします。 この時、次回のレッスン料金のお支払いをいただきます。 
   </div>
@@ -256,11 +263,10 @@
 </section>
 
 
-          
 
           <section>
 
-  <div class="page-header"> <h1 class="deco1">学習コース</h1> </div>
+  <div class="page-header"> <h2 class="deco1">選べるレッスン</h2> </div>
 
   八旗中国語学院は、この他にも多彩なコースを用意しております。お申し込みの際にご相談ください。
 
@@ -295,15 +301,16 @@
 
 
 
-        </div>
-      </div>
+        </div> 
+      </div> 
+    </div> 
 
-      <footer>
-        
-      </footer>
+    <footer>
+      
+    </footer>
 
-      
-      
+
+    
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   </body>

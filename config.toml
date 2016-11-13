@@ -3,7 +3,6 @@ languageCode = "ja-JP"
 title = "八旗中国語学院"
 theme = "baqi"
 
-
 [[params.menu]]
     name = "Home"
     url  = "/"
@@ -15,39 +14,38 @@ theme = "baqi"
     weight = 2
 
 [[params.menu]]
-    name = "FAQ"
+    name = "よくあるご質問"
     url  = "/faq/"
     weight = 3
 
 [[params.menu]]
-    name = "Contact"
+    name = "お問い合わせ"
     url  = "/contact/"
     weight = 4
 
 [[params.sidebar1]]
-    name="八旗中国語学院とは"
-    url = "#"
+    name="学院の特徴"
+    url = "#about"
     weight = 1
 
 [[params.sidebar1]]
-    name="トライアル"
-    url = "#"
+    name="体験レッスン"
+    url = "#trial"
     weight = 2
 
 [[params.sidebar1]]
     name="選べるレッスン"
-    url = "#"
+    url = "#course"
     weight = 3
-
 
 [[params.sidebar2]]
     name="料金システム"
-    url = "#"
+    url = "#system"
     weight = 1
 
 [[params.sidebar2]]
     name="翻訳サービス"
-    url = "#"
+    url = "translate"
     weight = 2
 
 [[params.sidebar2]]
@@ -57,10 +55,10 @@ theme = "baqi"
 
 [[params.sidebar2]]
     name="よくあるご質問"
-    url = "#"
+    url = "/faq/"
     weight = 4
 
 [[params.sidebar3]]
     name="お問い合わせ"
-    url = "#"
+    url = "/contact/"
     weight = 1

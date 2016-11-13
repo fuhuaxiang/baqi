@@ -2,12 +2,12 @@
   <div class="row">
     <div class="col-sm-12">
 
-      <div class="page-header"> <h1 class="deco1">八旗中国語学院について</h1> </div>
+      <div class="page-header"> <h2 class="deco1">八旗中国語学院の特徴</h2> </div>
 
       {{ range .Site.Data.about }}
-      <div class="page-header"> <h2 class="deco2"> {{ .title }} </h2> </div>
+      <h3 class="deco2"> {{ .title }} </h3>
       <div class="dbox">
-        {{ .content }}
+        {{ .content | safeHTML }}
       </div>
       {{ end }}
 
